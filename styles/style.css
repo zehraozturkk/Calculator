@@ -1,0 +1,53 @@
+body{
+    background-color: #BCEAD5;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+.calculator{
+    display: flex;
+    background-color: #1F8A70;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 420px;
+    width: 520px;
+    margin-right: 25PX;
+    gap: 12px;
+    border-radius: 16px;
+}
+
+.firstLine,
+.secondLine,
+.thirdLine,
+.fourthLine{
+
+    display: flex;
+    gap: 16px;
+}
+
+.title{
+    margin-top: 72px;
+    font-size: 72px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #1F8A70;
+}
+
+button{
+    border-radius: 12px;
+    width: 110px;
+    height: 64px;
+    font-size: 16px;
+}
+
+.Input{
+    border-radius: 8px;
+    width: 480px;
+    height: 64px;
+    margin-bottom: 8px
+}
