@@ -15,35 +15,40 @@
 <div class="container">
     <h1 class="title">welcome my calculator</h1>
     <div class="calculator">
-        <input class="Input" type="text" placeholder="Which number do you want to calculate?">
+        <div class="first">
+        <input class="Input" type="text" value="" placeholder="Which number do you want to calculate?">
+        <button type="button" value="clear" id="clear">clear</button>
+        
+        </div>
         <div class="firstLine">
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>+</button>
+            <button type="button" value="1" class="number">1</button>
+            <button type="button" value="2" class="number">2</button>
+            <button type="button" value="3" class="number">3</button>
+            <button type="button" value="+" class="operator" id="plus">+</button>
         </div>
         <div class="secondLine">
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>-</button>
+            <button type="button" value="4" class="number">4</button>
+            <button type="button" value="5" class="number">5</button>
+            <button type="button" value="6" class="number">6</button>
+            <button type="button" value="-" class="operator">-</button>
         </div>
         <div class="thirdLine">
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>x</button>
+            <button type="button" value="7" class="number">7</button>
+            <button type="button" value="8" class="number">8</button>
+            <button type="button" value="9" class="number">9</button>
+            <button type="button" value="*" class="operator">x</button>
         </div>
         <div class="fourthLine">
-            <button>clear</button>
-            <button>0</button> 
-            <button>=</button>
-            <button>%</button>
+            <button type="button" value="." class="decimal">.</button>
+            <button type="button" value="0" class="number">0</button> 
+            <button type="button" value="=" class="operator" id="equals">=</button>
+            <button type="button" value="/" class="operator">/</button>
+            
         </div>
     </div>
 </div>
 
-<script></script>
+<script src="main.js"></script>
     
 </body>
 </html>

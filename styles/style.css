@@ -21,14 +21,19 @@ body{
     border-radius: 16px;
 }
 
+.first{
+    display: flex;
+    gap: 12px;
+}
+
 .firstLine,
 .secondLine,
 .thirdLine,
 .fourthLine{
-
     display: flex;
     gap: 16px;
 }
+
 
 .title{
     margin-top: 72px;
@@ -42,12 +47,14 @@ button{
     border-radius: 12px;
     width: 110px;
     height: 64px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .Input{
+    font-size: 20px;
     border-radius: 8px;
-    width: 480px;
+    width: 360px;
     height: 64px;
     margin-bottom: 8px
+    
 }
